@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormacaoAcademicaComponent } from './formacao-academica/formacao-academica.component';
 import { ExperienciaProfissionalComponent } from './experiencia-profissional/experiencia-profissional.component';
+import { TopoComponent } from './topo/topo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormacaoAcademicaComponent,
-    ExperienciaProfissionalComponent
+    ExperienciaProfissionalComponent,
+    TopoComponent
   ],
   imports: [
     BrowserModule,
