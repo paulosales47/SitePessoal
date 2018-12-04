@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { FormacaoAcademicaComponent } from './formacao-academica/formacao-academica.component';
 import { ExperienciaProfissionalComponent } from './experiencia-profissional/experiencia-profissional.component';
 import { TopoComponent } from './topo/topo.component';
+import { RodapeComponent } from './rodape/rodape.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormacaoAcademicaComponent,
     ExperienciaProfissionalComponent,
-    TopoComponent
+    TopoComponent,
+    RodapeComponent
   ],
   imports: [
     BrowserModule,
