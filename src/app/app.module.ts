@@ -7,6 +7,7 @@ import { FormacaoAcademicaComponent } from './formacao-academica/formacao-academ
 import { ExperienciaProfissionalComponent } from './experiencia-profissional/experiencia-profissional.component';
 import { TopoComponent } from './topo/topo.component';
 import { RodapeComponent } from './rodape/rodape.component';
+import { ResumoComponent } from './resumo/resumo.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { RodapeComponent } from './rodape/rodape.component';
     FormacaoAcademicaComponent,
     ExperienciaProfissionalComponent,
     TopoComponent,
-    RodapeComponent
+    RodapeComponent,
+    ResumoComponent
   ],
   imports: [
     BrowserModule,
