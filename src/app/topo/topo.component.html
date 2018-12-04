@@ -1,12 +1,18 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="collapse navbar-collapse" id="navbarNav">
-    <a class="navbar-brand" href="#">
-      <img src="../../assets/ico/outline-school-24px.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+
+    <a class="navbar-brand" [routerLink]="['/']">
+        <img src="../../assets/ico/outline-perm_identity-24px.svg" width="30" height="30" class="d-inline-block align-top" alt="Resumo">
+        Resumo
+    </a>
+
+    <a class="navbar-brand" [routerLink]="['/FormacaoAcademica']">
+      <img src="../../assets/ico/outline-school-24px.svg" width="30" height="30" class="d-inline-block align-top" alt="Formação Academica">
       Formação Academica
     </a>
 
-    <a class="navbar-brand" href="#">
-      <img src="../../assets/ico/outline-work_outline-24px.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+    <a class="navbar-brand" [routerLink]="['/ExperienciaProfissional']">
+      <img src="../../assets/ico/outline-work_outline-24px.svg" width="30" height="30" class="d-inline-block align-top" alt="Experiência Profissional">
       Experiência Profissional
     </a>
 
