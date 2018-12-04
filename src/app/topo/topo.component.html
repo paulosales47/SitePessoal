@@ -1,19 +1,27 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-
-    <a class="navbar-brand" [routerLink]="['/']">
-        <img src="../../assets/ico/outline-perm_identity-24px.svg" width="30" height="30" class="d-inline-block align-top" alt="Resumo">
-        Resumo
-    </a>
-
-    <a class="navbar-brand" [routerLink]="['/FormacaoAcademica']">
-      <img src="../../assets/ico/outline-school-24px.svg" width="30" height="30" class="d-inline-block align-top" alt="Formação Academica">
-      Formação Academica
-    </a>
-
-    <a class="navbar-brand" [routerLink]="['/ExperienciaProfissional']">
-      <img src="../../assets/ico/outline-work_outline-24px.svg" width="30" height="30" class="d-inline-block align-top" alt="Experiência Profissional">
-      Experiência Profissional
-    </a>
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="navbar-brand" [routerLink]="['/']">
+          <img src="../../assets/ico/outline-perm_identity-24px.svg" width="30" height="30" class="d-inline-block align-top" alt="Resumo">
+          Resumo
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="navbar-brand" [routerLink]="['/FormacaoAcademica']">
+          <img src="../../assets/ico/outline-school-24px.svg" width="30" height="30" class="d-inline-block align-top" alt="Formação Academica">
+          Formação Academica
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="navbar-brand" [routerLink]="['/ExperienciaProfissional']">
+          <img src="../../assets/ico/outline-work_outline-24px.svg" width="30" height="30" class="d-inline-block align-top" alt="Experiência Profissional">
+          Experiência Profissional
+        </a>
+      </li>
+    </ul>
   </div>
 </nav>

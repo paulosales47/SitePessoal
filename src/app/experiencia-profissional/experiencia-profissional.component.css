@@ -1,3 +1,7 @@
+/* CONFIGURAÇÃO TIME LINE */
+
+.main-timeline8{ margin-top: 80px; margin-bottom: 80px;}
+
 .main-timeline8{overflow:hidden;position:relative}
 .main-timeline8:after,.main-timeline8:before{content:"";display:block;width:100%;clear:both}
 .main-timeline8:before{content:"";width:3px;height:100%;background:#d6d5d5;position:absolute;top:30px;left:50%}
@@ -25,6 +29,7 @@
 .main-timeline8 .timeline:nth-child(4n) .timeline-icon{border-color:#f98d9c}
 .main-timeline8 .timeline:nth-child(4n) .year{background:#f98d9c}
 .main-timeline8 .timeline:nth-child(4n) .year:before{border-top-color:#f2aab3}
+
 @media only screen and (max-width:767px){.main-timeline8{overflow:visible}
 .main-timeline8:before{top:0;left:0}
 .main-timeline8 .timeline:nth-child(2),.main-timeline8 .timeline:nth-child(even),.main-timeline8 .timeline:nth-child(odd){margin:0}
@@ -35,3 +40,5 @@
 .main-timeline8 .year:before{border-left:none;border-right:35px solid transparent;left:auto;right:0}
 .main-timeline8 .timeline-content{margin:0 35px 0 45px}
 }
+
+
