@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-md-12">
         <div class="main-timeline8">
-            <div class="timeline" [@animacao-experiencia-1]="estadoExperiencia1">
+            <div class="timeline" [@animacao-experiencia-1]="estadoExperiencia1" (@animacao-experiencia-1.done)="FimAnimacaoExperiencia1()">
                 <span class="timeline-icon"></span>
                 <span class="year">2017</span>
                 <div class="timeline-content">
@@ -11,7 +11,7 @@
                     </p>
                 </div>
             </div>
-            <div class="timeline" [@animacao-experiencia-2]="estadoExperiencia2">
+            <div class="timeline" [@animacao-experiencia-2]="estadoExperiencia2" (@animacao-experiencia-2.done)="FimAnimacaoExperiencia2()">
                 <span class="timeline-icon"></span>
                 <span class="year">2016</span>
                 <div class="timeline-content">
@@ -21,7 +21,7 @@
                     </p>
                 </div>
             </div>
-            <div class="timeline" [@animacao-experiencia-3]="estadoExperiencia3">
+            <div class="timeline" [@animacao-experiencia-3]="estadoExperiencia3" (@animacao-experiencia-3.done)="FimAnimacaoExperiencia3()">
                 <span class="timeline-icon"></span>
                 <span class="year">2015</span>
                 <div class="timeline-content">
